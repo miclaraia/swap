@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>swap.ui &mdash; SWAP 1.0.4-dev1 documentation</title>
+  <title>swap.ui &mdash; SWAP 1.0.4-dev5 documentation</title>
   
 
   
@@ -37,7 +37,7 @@
         <link rel="index" title="Index"
               href="../../genindex.html"/>
         <link rel="search" title="Search" href="../../search.html"/>
-    <link rel="top" title="SWAP 1.0.4-dev1 documentation" href="../../index.html"/>
+    <link rel="top" title="SWAP 1.0.4-dev5 documentation" href="../../index.html"/>
         <link rel="up" title="swap" href="../swap.html"/> 
 
   
@@ -181,25 +181,11 @@
 <span class="sd">        An interface to generate roc curves from multiple SWAP exports</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
-<span class="kn">from</span> <span class="nn">swap.control</span> <span class="k">import</span> <span class="n">Control</span>
-<span class="kn">import</span> <span class="nn">swap.config</span> <span class="k">as</span> <span class="nn">config</span>
-<span class="kn">import</span> <span class="nn">swap.plots</span> <span class="k">as</span> <span class="nn">plots</span>
-<span class="kn">import</span> <span class="nn">swap.caesar.app</span> <span class="k">as</span> <span class="nn">caesar</span>
-
-<span class="kn">from</span> <span class="nn">swap.utils.scores</span> <span class="k">import</span> <span class="n">ScoreExport</span>
-<span class="kn">from</span> <span class="nn">swap.swap</span> <span class="k">import</span> <span class="n">SWAP</span>
-
 <span class="kn">from</span> <span class="nn">swap.ui.ui</span> <span class="k">import</span> <span class="n">UI</span>
 <span class="kn">from</span> <span class="nn">swap.ui.scores</span> <span class="k">import</span> <span class="n">RocInterface</span><span class="p">,</span> <span class="n">ScoresInterface</span>
 <span class="kn">from</span> <span class="nn">swap.ui.swap</span> <span class="k">import</span> <span class="n">SWAPInterface</span>
 <span class="kn">from</span> <span class="nn">swap.ui.caesar</span> <span class="k">import</span> <span class="n">CaesarInterface</span>
 <span class="kn">from</span> <span class="nn">swap.ui.admin</span> <span class="k">import</span> <span class="n">AdminInterface</span>
-
-<span class="kn">import</span> <span class="nn">pickle</span>
-<span class="kn">import</span> <span class="nn">argparse</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">import</span> <span class="nn">csv</span>
 
 <span class="kn">import</span> <span class="nn">logging</span>
 <span class="n">logger</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
@@ -277,7 +263,7 @@
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../../',
-            VERSION:'1.0.4-dev1',
+            VERSION:'1.0.4-dev5',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

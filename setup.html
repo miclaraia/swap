@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Getting Started &mdash; SWAP 1.0.4-dev1 documentation</title>
+  <title>Getting Started &mdash; SWAP 1.0.4-dev5 documentation</title>
   
 
   
@@ -37,7 +37,7 @@
         <link rel="index" title="Index"
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="SWAP 1.0.4-dev1 documentation" href="index.html"/>
+    <link rel="top" title="SWAP 1.0.4-dev5 documentation" href="index.html"/>
         <link rel="next" title="UI Usage" href="usage.html"/>
         <link rel="prev" title="Welcome to SWAP’s documentation!" href="index.html"/> 
 
@@ -222,7 +222,32 @@ and information about conda <a class="reference external" href="https://conda.io
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="n">swap</span>
 </pre></div>
 </div>
-<p><em>Development Mode:</em> Pip can also install SWAP in development mode. This means pip will install
+<p><em>Extras:</em>
+SWAP has some additional functionalities that can be installed via pip. To
+install these extras, run:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="n">swap</span><span class="p">[{</span><span class="n">EXTRA1</span><span class="p">},{</span><span class="n">EXTRA2</span><span class="p">},</span><span class="o">...</span><span class="p">]</span>
+</pre></div>
+</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="23%" />
+<col width="77%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>dev</td>
+<td>Install additional dependencies required for
+development</td>
+</tr>
+<tr class="row-even"><td>plot</td>
+<td>Install plotting libraries and activate SWAP’s
+builtin plotting functionality.</td>
+</tr>
+</tbody>
+</table>
+<p>There are a number of additional dependencies that can be installed to enhance
+SWAP.
+Run <cite>pip install -e swap[dev]</cite> to install dependencies require
+Pip can also install SWAP in development mode. This means pip will install
 the project in editable mode, so changes to the source affect the runtime version.
 It will also install additional dependencies for testing and development.
 To do this, clone the git repository, navigate to the projectd directory, and run:</p>
@@ -416,7 +441,7 @@ when the file reaches this size.</td>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'1.0.4-dev1',
+            VERSION:'1.0.4-dev5',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>swap.utils &mdash; SWAP 1.0.4-dev1 documentation</title>
+  <title>swap.utils &mdash; SWAP 1.0.4-dev5 documentation</title>
   
 
   
@@ -37,7 +37,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="SWAP 1.0.4-dev1 documentation" href="../index.html"/>
+    <link rel="top" title="SWAP 1.0.4-dev5 documentation" href="../index.html"/>
         <link rel="up" title="API Documentation" href="index.html"/>
         <link rel="prev" title="swap" href="swap.html"/> 
 
@@ -220,7 +220,7 @@ SWAP version</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cl</strong> (<a class="reference internal" href="#swap.utils.scores.ScoreStats.dict" title="swap.utils.scores.ScoreStats.dict"><em>dict</em></a>) – classification</td>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>cl</strong> (<a class="reference internal" href="#swap.utils.scores.Score.dict" title="swap.utils.scores.Score.dict"><em>dict</em></a>) – classification</td>
 </tr>
 </tbody>
 </table>
@@ -238,7 +238,7 @@ SWAP version</p>
 <li><strong>subject</strong> (<em>int</em>) – id number of the subject being classified</li>
 <li><strong>annotation</strong> (<em>int</em>) – label assigned by the user</li>
 <li><strong>gold_label</strong> (<em>int</em>) – (optional) expert assigned label</li>
-<li><strong>metadata</strong> (<a class="reference internal" href="#swap.utils.scores.ScoreStats.dict" title="swap.utils.scores.ScoreStats.dict"><em>dict</em></a>) – (optional) any additional metadata associated</li>
+<li><strong>metadata</strong> (<a class="reference internal" href="#swap.utils.scores.Score.dict" title="swap.utils.scores.Score.dict"><em>dict</em></a>) – (optional) any additional metadata associated</li>
 </ul>
 </td>
 </tr>
@@ -597,6 +597,11 @@ desired purity.</p>
 <dd></dd></dl>
 
 <dl class="classmethod">
+<dt id="swap.utils.scores.ScoreStats.mean_squared_error">
+<em class="property">classmethod </em><code class="descname">mean_squared_error</code><span class="sig-paren">(</span><em>scores</em>, <em>retirement=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/swap/utils/scores.html#ScoreStats.mean_squared_error"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#swap.utils.scores.ScoreStats.mean_squared_error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="classmethod">
 <dt id="swap.utils.scores.ScoreStats.ncl_stats">
 <em class="property">classmethod </em><code class="descname">ncl_stats</code><span class="sig-paren">(</span><em>scores</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/swap/utils/scores.html#ScoreStats.ncl_stats"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#swap.utils.scores.ScoreStats.ncl_stats" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -666,7 +671,7 @@ and a single connection to the database.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'1.0.4-dev1',
+            VERSION:'1.0.4-dev5',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,

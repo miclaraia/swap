@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>swap &mdash; SWAP 1.0.4-dev1 documentation</title>
+  <title>swap &mdash; SWAP 1.0.4-dev5 documentation</title>
   
 
   
@@ -37,7 +37,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="SWAP 1.0.4-dev1 documentation" href="../index.html"/>
+    <link rel="top" title="SWAP 1.0.4-dev5 documentation" href="../index.html"/>
         <link rel="up" title="API Documentation" href="index.html"/>
         <link rel="next" title="swap.utils" href="utils.html"/>
         <link rel="prev" title="swap.plots" href="plots.html"/> 
@@ -418,7 +418,7 @@ Discovery of Gravitational Lenses”, MNRAS, 455, 1171
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>cl</strong> (<a class="reference internal" href="utils.html#swap.utils.classification.Classification" title="swap.utils.classification.Classification"><em>swap.utils.classification.Classification</em></a><em>, </em><a class="reference internal" href="utils.html#swap.utils.scores.ScoreStats.dict" title="swap.utils.scores.ScoreStats.dict"><em>dict</em></a>) – Classification to be processed. Should be a Classification
+<li><strong>cl</strong> (<a class="reference internal" href="utils.html#swap.utils.classification.Classification" title="swap.utils.classification.Classification"><em>swap.utils.classification.Classification</em></a><em>, </em><a class="reference internal" href="utils.html#swap.utils.scores.Score.dict" title="swap.utils.scores.Score.dict"><em>dict</em></a>) – Classification to be processed. Should be a Classification
 object, but will also accept a dict object to generate a
 new Classification object</li>
 <li><strong>subject</strong> (<em>boolean</em>) – Deprecated</li>
@@ -445,7 +445,7 @@ new Classification object</li>
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">{subject id: gold label}</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="utils.html#swap.utils.scores.ScoreStats.dict" title="swap.utils.scores.ScoreStats.dict">dict</a></td>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="utils.html#swap.utils.scores.Score.dict" title="swap.utils.scores.Score.dict">dict</a></td>
 </tr>
 </tbody>
 </table>
@@ -528,7 +528,7 @@ gold on initialization</p>
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>golds</strong> (<a class="reference internal" href="utils.html#swap.utils.scores.ScoreStats.dict" title="swap.utils.scores.ScoreStats.dict"><em>dict</em></a>) – (subject id : gold label) Mapping of subject to its gold label</td>
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>golds</strong> (<a class="reference internal" href="utils.html#swap.utils.scores.Score.dict" title="swap.utils.scores.Score.dict"><em>dict</em></a>) – (subject id : gold label) Mapping of subject to its gold label</td>
 </tr>
 </tbody>
 </table>
@@ -651,7 +651,7 @@ Makes it easier to repeated run SWAP under different conditions.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'1.0.4-dev1',
+            VERSION:'1.0.4-dev5',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true,
